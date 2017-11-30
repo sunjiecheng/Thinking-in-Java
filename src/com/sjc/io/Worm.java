@@ -58,28 +58,27 @@ public class Worm implements Serializable {
         return result.toString();
     }
 
-    public static void main(String[] args)
-            throws ClassNotFoundException, IOException {
+    public static void main(String[] args) throws ClassNotFoundException, IOException {
         Worm w = new Worm(6, 'a');
         print("w = " + w);
-        ObjectOutputStream out = new ObjectOutputStream(
-                new FileOutputStream("worm.out"));
+        //第一次写
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("worm.out"));
         out.writeObject("Worm storage\n");
         out.writeObject(w);
         out.close(); // Also flushes output
-        ObjectInputStream in = new ObjectInputStream(
-                new FileInputStream("worm.out"));
+        //第一次读
+        ObjectInputStream in = new ObjectInputStream(new FileInputStream("worm.out"));
         String s = (String) in.readObject();
         Worm w2 = (Worm) in.readObject();
         print(s + "w2 = " + w2);
-        ByteArrayOutputStream bout =
-                new ByteArrayOutputStream();
+        //第二次写
+        ByteArrayOutputStream bout = new ByteArrayOutputStream();
         ObjectOutputStream out2 = new ObjectOutputStream(bout);
         out2.writeObject("Worm storage\n");
         out2.writeObject(w);
         out2.flush();
-        ObjectInputStream in2 = new ObjectInputStream(
-                new ByteArrayInputStream(bout.toByteArray()));
+        //第二次读
+        ObjectInputStream in2 = new ObjectInputStream(new ByteArrayInputStream(bout.toByteArray()));
         s = (String) in2.readObject();
         Worm w3 = (Worm) in2.readObject();
         print(s + "w3 = " + w3);
