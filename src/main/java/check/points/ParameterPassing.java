@@ -5,12 +5,19 @@ package check.points;
  * @create 2019-05-19 上午11:40
  */
 public class ParameterPassing {
+
+    private static Person person = null;
+
     public static void main(String[] args) {
         // 1、传入基本数据类型
         int num = 5;
         System.out.println(num);
         changeValue(num);
         System.out.println(num);
+
+        String name  = ParameterPassing.person.name;
+
+        System.out.println(name);
 
         // 2、传入引用数据类型
         Person person = new Person();
@@ -24,6 +31,8 @@ public class ParameterPassing {
         changeName(person);
         //再显示这个对象的name属性，看是否发生了变化
         System.out.println(person.name);
+
+
 
     }
 
