@@ -16,7 +16,7 @@ public class E29_WildcardTest {
     print(holder.equals(list));
     // Compile errors:
     // list.add(1);
-    // list.add(new Object());
+    // list.add(new object());
     Integer i = (Integer)list.get(0);
     print(i);
     print(list.contains(i));

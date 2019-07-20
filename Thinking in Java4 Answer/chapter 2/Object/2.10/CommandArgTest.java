@@ -1,4 +1,4 @@
-// TIJ4 Chapter Object, Exercise 10, page 90
+// TIJ4 Chapter object, Exercise 10, page 90
 // Write a program that prints three arguments taken from the command line. To do // this you'll need to index into the command-line array of Strings.
 
 public class CommandArgTest {

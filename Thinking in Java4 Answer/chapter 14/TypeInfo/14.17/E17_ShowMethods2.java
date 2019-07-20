@@ -61,7 +61,7 @@ public Class getClass()
 public void wait(long,int) throws InterruptedException
 public void wait() throws InterruptedException
 public void wait(long) throws InterruptedException
-public boolean equals(Object)
+public boolean equals(object)
 public String toString()
 public void notify()
 public void notifyAll()

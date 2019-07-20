@@ -1,5 +1,5 @@
 // object/HelloDocTest.java
-// TIJ4 Chapter Object, Exercies 15, page 91
+// TIJ4 Chapter object, Exercies 15, page 91
 /* Take the program in Exercise 2 and add comment documentation to it. Extract
 * this comment documentation into an HTML file using Javadoc and view it with
 * your Web browser.

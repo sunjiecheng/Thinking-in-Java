@@ -22,6 +22,6 @@ public class CaptureConversion {
   }
 } /* Output:
 Integer
-Object
+object
 Double
 *///:~

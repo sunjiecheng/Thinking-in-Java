@@ -1,5 +1,5 @@
 // object/Overloading.java
-// TIJ4 Chapter Object, Exercise 16, page 91
+// TIJ4 Chapter object, Exercise 16, page 91
 /* In the Initialization and Cleanup chapter, locate the Overloading.java
 * example and add Javadoc documentation. Extract this comment documentation
 * into and HTML file using Javadoc and view it with your Web browser.

@@ -1,5 +1,5 @@
 // object/Rainbow.java
-// TIJ4 Chapter Object, Exercise 11, page 90
+// TIJ4 Chapter object, Exercise 11, page 90
 // Turn the AllColorsOfTheRainbow into a program that compiles and runs.
 
 public class Rainbow {

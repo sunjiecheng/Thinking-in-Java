@@ -1,7 +1,7 @@
 //: holding/E29_PriorityQueueSubtlety.java
 // {ThrowsException}
 /****************** Exercise 29 *****************
- * Create a simple class that inherits from Object
+ * Create a simple class that inherits from object
  * and contains no members, and show that you cannot
  * successfully add multiple elements of that class
  * to a PriorityQueue. This issue will be fully

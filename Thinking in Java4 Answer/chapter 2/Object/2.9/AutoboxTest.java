@@ -1,4 +1,4 @@
-// TIJ4 Chapter Object, Exercise 9, page 90
+// TIJ4 Chapter object, Exercise 9, page 90
 // Write a program that demonstrates that autoboxing works for all the primitive // types and their wrappers.
 
 public class AutoboxTest {

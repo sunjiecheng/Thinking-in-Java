@@ -19,7 +19,7 @@ public class Wildcards {
   static void unboundedArg(Holder<?> holder, Object arg) {
     // holder.set(arg); // Error:
     //   set(capture of ?) in Holder<capture of ?>
-    //   cannot be applied to (Object)
+    //   cannot be applied to (object)
     // holder.set(new Wildcards()); // Same error
 
     // Can't do this; don't have any 'T':
@@ -50,7 +50,7 @@ public class Wildcards {
   void wildSupertype(Holder<? super T> holder, T arg) {
     holder.set(arg);
     // T t = holder.get();  // Error:
-    //   Incompatible types: found Object, required T
+    //   Incompatible types: found object, required T
 
     // OK, but type information has been lost:
     Object obj = holder.get();
@@ -74,12 +74,12 @@ public class Wildcards {
     unboundedArg(unbounded, lng);
     unboundedArg(bounded, lng);
 
-    // Object r1 = exact1(raw); // Warnings:
+    // object r1 = exact1(raw); // Warnings:
     //   Unchecked conversion from Holder to Holder<T>
     //   Unchecked method invocation: exact1(Holder<T>)
     //   is applied to (Holder)
     Long r2 = exact1(qualified);
-    Object r3 = exact1(unbounded); // Must return Object
+    Object r3 = exact1(unbounded); // Must return object
     Long r4 = exact1(bounded);
 	
     // Long r5 = exact2(raw, lng); // Warnings:
@@ -101,7 +101,7 @@ public class Wildcards {
     //   wildSubtype(Holder<? extends T>,T) is
     //   applied to (Holder,Long)
     Long r10 = wildSubtype(qualified, lng);
-    // OK, but can only return Object:
+    // OK, but can only return object:
     Object r11 = wildSubtype(unbounded, lng);
     Long r12 = wildSubtype(bounded, lng);
 	

@@ -1,5 +1,5 @@
 // object/Documentation4.java
-// TIJ4 Chapter Object, Exercise 14, page 90
+// TIJ4 Chapter object, Exercise 14, page 90
 // Add an HTML list of items to the documentation in the previous exercise.
 import java.util.*;
 

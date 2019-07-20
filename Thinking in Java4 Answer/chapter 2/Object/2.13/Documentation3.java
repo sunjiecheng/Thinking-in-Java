@@ -1,5 +1,5 @@
 // object.Documentation1.java
-// TIJ4 Chapter Object, Exercise 13 - 3
+// TIJ4 Chapter object, Exercise 13 - 3
 /* Run Documentation1.java, Documentation2.java and Documentation3.java 
 * through Javadoc. Verify the resulting documentation with your Web browser. 
 */

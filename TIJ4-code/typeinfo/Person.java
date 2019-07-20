@@ -1,5 +1,5 @@
 //: typeinfo/Person.java
-// A class with a Null Object.
+// A class with a Null object.
 import net.mindview.util.*;
 
 class Person {

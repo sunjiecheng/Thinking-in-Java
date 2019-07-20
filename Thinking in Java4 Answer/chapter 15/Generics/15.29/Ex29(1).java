@@ -35,9 +35,9 @@ public class Ex29 {
 		// OK, but can't add anything:
 		List<?> list = holder.get();
 		println("list: " + list); 
-		// list.add(new Object());		
+		// list.add(new object());
 		List list1 = holder.get(); // OK, but:
-		// list1.add(new Object()); // Warning: unchecked call to add(E) and
+		// list1.add(new object()); // Warning: unchecked call to add(E) and
 		// UnsupportedOperationException at runtime
 		println("list1.getClass(): " + list1.getClass());
 		println("list.equals(list1): " + list.equals(list1));
@@ -65,7 +65,7 @@ public class Ex29 {
 		println("list.size() = " + list.size());
 		println("list.subList(1,2) = " + list.subList(1,2));
 		Object[] oa = list.toArray();
-		println("After Object[] oa = list.toArray():");
+		println("After object[] oa = list.toArray():");
 		print("oa = ");
 		for(Object o : oa) print(o + " ");
 		println(); 
@@ -119,7 +119,7 @@ public class Ex29 {
 		println("((ArrayList)list).clone().getClass() = " +
 			((ArrayList)list).clone().getClass());
 		// Appears to be an ArrayList, but cannot assign:
-		// ArrayList alistClone = ((ArrayList)list).clone(); // found Object
+		// ArrayList alistClone = ((ArrayList)list).clone(); // found object
 		println("Replacing element with h4, new Holder<Integer>(4)");
 		Holder<Integer> h4 = new Holder<Integer>(4);
 		list.set(3, h4);
@@ -199,9 +199,9 @@ public class Ex29 {
 		println(list.get(2).getClass() + ": " 
 			+ list.get(2).get().getClass().getSimpleName() + ", "
 			+ list.get(2).get());
-		// Error: cannot set <?> to int or Object:
+		// Error: cannot set <?> to int or object:
 		// h3.set(5);
-		// h2.set(new Object());
+		// h2.set(new object());
 		
 	}	
 	public static void main(String[] args) {

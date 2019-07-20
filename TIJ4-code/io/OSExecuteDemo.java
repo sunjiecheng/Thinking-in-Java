@@ -8,7 +8,7 @@ public class OSExecuteDemo {
   }
 } /* Output:
 Compiled from "OSExecuteDemo.java"
-public class OSExecuteDemo extends java.lang.Object{
+public class OSExecuteDemo extends java.lang.object{
     public OSExecuteDemo();
     public static void main(java.lang.String[]);
 }

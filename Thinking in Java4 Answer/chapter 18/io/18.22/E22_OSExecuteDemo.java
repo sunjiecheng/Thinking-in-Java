@@ -54,7 +54,7 @@ public class E22_OSExecuteDemo {
   }
 } /* Output:
 Compiled from "E22_OSExecuteDemo.java"
-public class io.E22_OSExecuteDemo extends java.lang.Object{
+public class io.E22_OSExecuteDemo extends java.lang.object{
     public io.E22_OSExecuteDemo();
     public static void main(java.lang.String[]);
 }

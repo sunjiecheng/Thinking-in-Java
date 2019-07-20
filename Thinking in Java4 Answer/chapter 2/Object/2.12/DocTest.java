@@ -1,5 +1,5 @@
 // object.DocTest.java
-// TIJ4 Chapter Object, Exercise 12, page 90
+// TIJ4 Chapter object, Exercise 12, page 90
 /* Find the code for the second version of HelloDate.java, which is the simple
 * comment documentation example. Execute Javadoc on the file and view the
 * results with your Web browser. 

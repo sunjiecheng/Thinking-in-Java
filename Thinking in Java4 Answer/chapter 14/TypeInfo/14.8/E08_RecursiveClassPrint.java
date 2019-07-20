@@ -10,7 +10,7 @@ import static net.mindview.util.Print.*;
 
 public class E08_RecursiveClassPrint {
   static void printClasses(Class<?> c) {
-    // getSuperclass() returns null on Object:
+    // getSuperclass() returns null on object:
     if(c == null) return;
     print(c.getName());
     // Produces the interfaces that this class
@@ -33,7 +33,7 @@ public class E08_RecursiveClassPrint {
 Displaying typeinfo.Circle
 typeinfo.Circle
 typeinfo.Shape
-java.lang.Object
+java.lang.object
 ==================
 Displaying typeinfo.FancyToy
 typeinfo.FancyToy
@@ -41,5 +41,5 @@ Interface: typeinfo.HasBatteries
 Interface: typeinfo.Waterproof
 Interface: typeinfo.Shoots
 typeinfo.Toy
-java.lang.Object
+java.lang.object
 *///:~

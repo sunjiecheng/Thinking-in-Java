@@ -42,7 +42,7 @@ Methods:
 Interfaces:
 java.lang.Comparable<E>
 interface java.io.Serializable
-Base: class java.lang.Object
+Base: class java.lang.object
 Methods:
 [compareTo, equals, getClass, getDeclaringClass, hashCode, name, notify, notifyAll, ordinal, toString, valueOf, wait]
 Explore.containsAll(Enum)? true

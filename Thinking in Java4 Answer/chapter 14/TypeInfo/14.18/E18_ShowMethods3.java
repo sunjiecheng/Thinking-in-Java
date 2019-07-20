@@ -60,7 +60,7 @@ public final native Class getClass()
 public final void wait(long,int) throws InterruptedException
 public final void wait() throws InterruptedException
 public final native void wait(long) throws InterruptedException
-public boolean equals(Object)
+public boolean equals(object)
 public String toString()
 public final native void notify()
 public final native void notifyAll()

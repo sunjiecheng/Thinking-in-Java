@@ -154,7 +154,7 @@
     </Match>
     <Match class="Holder">
         <BugCode name="HE"/>
-        <!--Holder defines equals and uses Object.hashCode()-->
+        <!--Holder defines equals and uses object.hashCode()-->
     </Match>
     <Match class="IInterface$Inner">
         <BugCode name="UuF"/>
@@ -239,7 +239,7 @@
     </Match>
     <Match class="MPair">
         <BugCode name="HE"/>
-        <!--MPair defines equals and uses Object.hashCode()-->
+        <!--MPair defines equals and uses object.hashCode()-->
     </Match>
     <Match class="MappedIO$4">
         <BugCode name="OS"/>
@@ -351,7 +351,7 @@
     </Match>
     <Match class="SimpleQueue">
         <BugCode name="RV"/>
-        <!--SimpleQueue.add(Object) ignores return value of java.util.LinkedList.offer(Object)  At SimpleQueue.java:[line 7]-->
+        <!--SimpleQueue.add(object) ignores return value of java.util.LinkedList.offer(object)  At SimpleQueue.java:[line 7]-->
     </Match>
     <Match class="SimpleThread">
         <BugCode name="RV"/>
@@ -373,8 +373,8 @@
     </Match>
     <Match class="TellerManager">
         <BugCode name="RV"/>
-        <!--TellerManager.adjustTellerNumber() ignores return value of java.util.PriorityQueue.offer(Object)  At BankTellerSimulation.java:[line 127]-->
-        <!--TellerManager.reassignOneTeller() ignores return value of java.util.Queue.offer(Object)  At BankTellerSimulation.java:[line 150]-->
+        <!--TellerManager.adjustTellerNumber() ignores return value of java.util.PriorityQueue.offer(object)  At BankTellerSimulation.java:[line 127]-->
+        <!--TellerManager.reassignOneTeller() ignores return value of java.util.Queue.offer(object)  At BankTellerSimulation.java:[line 150]-->
     </Match>
     <Match class="TemperatureReading">
         <BugCode name="UrF"/>
@@ -412,8 +412,8 @@
     </Match>
     <Match class="WildcardRules">
         <BugCode name="RV"/>
-        <!--WildcardRules.f(Holder) ignores return value of Holder.equals(Object)  At WildcardRules.java:[line 11]-->
-        <!--WildcardRules.g(Holder) ignores return value of Holder.equals(Object)  At WildcardRules.java:[line 17]-->
+        <!--WildcardRules.f(Holder) ignores return value of Holder.equals(object)  At WildcardRules.java:[line 11]-->
+        <!--WildcardRules.g(Holder) ignores return value of Holder.equals(object)  At WildcardRules.java:[line 17]-->
     </Match>
     <Match class="annotations.database.Member">
         <BugCode name="UwF"/>

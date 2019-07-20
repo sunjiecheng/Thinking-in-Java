@@ -1,5 +1,5 @@
 // object/ITest.java
-// TIJ4 Chapter Object, Exercise 7, page 90
+// TIJ4 Chapter object, Exercise 7, page 90
 // Turn the Incrementable code fragments into a working program.
 
 class StaticTest {

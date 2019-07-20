@@ -1,5 +1,5 @@
 // object/StorageTest.java
-// TIJ4 Chapter Object, Exercise 6, page 90
+// TIJ4 Chapter object, Exercise 6, page 90
 // Write a program that includes and calls the storage() method defined as a
 // code fragment in this chapter.
 

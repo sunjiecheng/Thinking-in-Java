@@ -1,5 +1,5 @@
 // object/OneStaticTest.java
-// TIJ4 Chapter Object, Exercise 8, page 90
+// TIJ4 Chapter object, Exercise 8, page 90
 /* Write a program that demonstrates that, no matter how many objects you
 * create of a particular class, there is only one instance of a particular
 * static field of that class.

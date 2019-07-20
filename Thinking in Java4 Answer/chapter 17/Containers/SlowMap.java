@@ -16,7 +16,7 @@ public class SlowMap<K,V> extends AbstractMap<K,V> {
       values.set(keys.indexOf(key), value);
     return oldValue;
   }
-  public V get(Object key) { // key is type Object, not K
+  public V get(Object key) { // key is type object, not K
     if(!keys.contains(key))
       return null;
     return values.get(keys.indexOf(key));

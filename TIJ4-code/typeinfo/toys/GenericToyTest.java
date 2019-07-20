@@ -10,7 +10,7 @@ public class GenericToyTest {
     Class<? super FancyToy> up = ftClass.getSuperclass();
     // This won't compile:
     // Class<Toy> up2 = ftClass.getSuperclass();
-    // Only produces Object:
+    // Only produces object:
     Object obj = up.newInstance();
   }
 } ///:~

@@ -12,7 +12,7 @@ public class Maps14 {
 		printnb("Keys: ");
 		print(map.keySet()); // Produce a set of the keys
 	}
-	// more general version, taking Map<Object,Object> arg:
+	// more general version, taking Map<object,object> arg:
 	public static void printKeys2(Map<Object,Object> map) {
 		printnb("Size = " + map.size() + ", ");
 		printnb("Keys: ");
@@ -42,7 +42,7 @@ public class Maps14 {
 		map.keySet().removeAll(map.keySet());
 		print("map.isEmpty(): " + map.isEmpty());
 	}
-	// more general version, taking Map<Object,Object> arg:
+	// more general version, taking Map<object,object> arg:
 	public static void test2(Map<Object,Object> map) {
 		print(map.getClass().getSimpleName());
 		map.putAll(new CountingMapData(25));
@@ -71,7 +71,7 @@ public class Maps14 {
 		// Method test(Map<Integer,String>() cannot be applied:
 		// test(new java.util.Properties()); 
 		// test(new Properties());
-		// test(new HashMap<Object,Object>());
+		// test(new HashMap<object,object>());
 		// test(new HashMap<String,String>());
 		// Incompatible:
 		// Map<Integer,String> misp = new Properties(); 
@@ -80,7 +80,7 @@ public class Maps14 {
 		Map<Object,Object> moop = new Properties();
 		// but test(Map<Integer,String>() cannot be applied: 
 		// test(moop); 
-		// Using more general version, taking Map<Object,Object> arg:
+		// Using more general version, taking Map<object,object> arg:
 		test2(new Properties()); // OK			
 	}
 }

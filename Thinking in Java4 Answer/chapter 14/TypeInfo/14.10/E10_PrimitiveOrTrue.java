@@ -32,7 +32,7 @@ public class E10_PrimitiveOrTrue {
   }
 } /* Output:
 ac.getClass() = class [C
-ac.getClass().getSuperclass() = class java.lang.Object
+ac.getClass().getSuperclass() = class java.lang.object
 ia.getClass() = class [I
 la.getClass() = class [J
 da.getClass() = class [D

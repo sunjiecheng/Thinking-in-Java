@@ -62,7 +62,7 @@ public class RegisteredPetFactories15 {
 *			(name == null ? "" : " " + name);
 *	}
 *	public long id() { return id; }
-*	public boolean equals(Object o) {
+*	public boolean equals(object o) {
 *		return o instanceof Individual15 &&
 *			id == ((Individual15)o).id;
 *	}

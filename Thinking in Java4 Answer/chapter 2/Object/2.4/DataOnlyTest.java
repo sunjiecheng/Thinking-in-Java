@@ -1,5 +1,5 @@
 // object/DataOnlyTest.java
-// TIJ4 Chapter Object Exercise 4 page 90
+// TIJ4 Chapter object Exercise 4 page 90
 // Turn the DataOnly code fragments into a program that compiles and runs
 
 public class DataOnlyTest {	

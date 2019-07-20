@@ -17,7 +17,7 @@ public class Holder<T> {
     // Holder<Fruit> Fruit = Apple; // Cannot upcast
     Holder<? extends Fruit> fruit = Apple; // OK
     Fruit p = fruit.get();
-    d = (Apple)fruit.get(); // Returns 'Object'
+    d = (Apple)fruit.get(); // Returns 'object'
     try {
       Orange c = (Orange)fruit.get(); // No warning
     } catch(Exception e) { System.out.println(e); }

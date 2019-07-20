@@ -12,7 +12,7 @@ public class ArrayOfGenerics {
     // Compile-time checking produces an error:
     //! ls[1] = new ArrayList<Integer>();
 
-    // The problem: List<String> is a subtype of Object
+    // The problem: List<String> is a subtype of object
     Object[] objects = ls; // So assignment is OK
     // Compiles and runs without complaint:
     objects[1] = new ArrayList<Integer>();

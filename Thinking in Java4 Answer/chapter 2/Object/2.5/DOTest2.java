@@ -1,5 +1,5 @@
 // object/DOTest2.java
-// TIJ4 Chapter Object, Exercise 5, page 90
+// TIJ4 Chapter object, Exercise 5, page 90
 // Modify the previous exercise so that the values of the data in DataOnly are
 // assigned to and printed in main().
 

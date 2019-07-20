@@ -1,4 +1,4 @@
-// TIJ4 Chapter Object, Exericise 2, page 89
+// TIJ4 Chapter object, Exericise 2, page 89
 // object/HelloWorld.java
 // Following the HelloDate.java example in this chapter, create a "hello, world" 
 // program that simply displays that statement.

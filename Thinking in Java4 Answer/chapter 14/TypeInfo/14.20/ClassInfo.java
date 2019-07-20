@@ -101,9 +101,9 @@ public class ClassInfo {
 		println("c.isAnonymousClass(): " + c.isAnonymousClass());
 		println("c.isArray(): " + c.isArray());
 		println("c.isAssignableFrom(ClassInfo.class): " + c.isAssignableFrom(ClassInfo.class));
-		println("c.isAssignableFrom(Object.class): " + c.isAssignableFrom(Object.class));
+		println("c.isAssignableFrom(object.class): " + c.isAssignableFrom(Object.class));
 		println("c.isEnum(): " + c.isEnum());
-		println("c.isInstance(Object.class): " + c.isInstance(Object.class));
+		println("c.isInstance(object.class): " + c.isInstance(Object.class));
 		println("c.isInterface(): " + c.isInterface());
 		println("c.isLocalClass(): " + c.isLocalClass());
 		println("c.isMemberClass(): " + c.isMemberClass());

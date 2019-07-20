@@ -34,7 +34,7 @@ public class E09_GetDeclaredFields {
   static Set<Class<?>> alreadyDisplayed =
     new HashSet<Class<?>>();
   static void printClasses(Class<?> c) {
-    // getSuperclass() returns null on Object:
+    // getSuperclass() returns null on object:
     if(c == null) return;
     print(c.getName());
     Field[] fields = c.getDeclaredFields();
@@ -91,26 +91,26 @@ Fields:
 [C
 Interface: java.lang.Cloneable
 Interface: java.io.Serializable
-java.lang.Object
+java.lang.object
 int
 long
 [Ljava.io.ObjectStreamField;
 Interface: java.lang.Cloneable
 Interface: java.io.Serializable
-java.lang.Object
+java.lang.object
 java.util.Comparator
 Interface: java.io.Serializable
 Interface: java.lang.Comparable
 Interface: java.lang.CharSequence
-java.lang.Object
+java.lang.object
 double
 Interface: typeinfo.Iface
-java.lang.Object
-java.lang.Object
+java.lang.object
+java.lang.object
 typeinfo.Base
 Fields:
    java.lang.String typeinfo.Base.s
    double typeinfo.Base.d
 Interface: typeinfo.Iface
-java.lang.Object
+java.lang.object
 *///:~

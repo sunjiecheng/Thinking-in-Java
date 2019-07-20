@@ -1,4 +1,4 @@
-package check.points;
+package interview;
 
 /**
  * @author jiecheng

@@ -9,7 +9,7 @@ public class UnboundedWildcards1 {
     list1 = list;
     list2 = list;
     // list3 = list; // Warning: unchecked conversion
-    // Found: List, Required: List<? extends Object>
+    // Found: List, Required: List<? extends object>
   }
   static void assign2(List<?> list) {
     list1 = list;
@@ -26,7 +26,7 @@ public class UnboundedWildcards1 {
     assign2(new ArrayList());
     // assign3(new ArrayList()); // Warning:
     // Unchecked conversion. Found: ArrayList
-    // Required: List<? extends Object>
+    // Required: List<? extends object>
     assign1(new ArrayList<String>());
     assign2(new ArrayList<String>());
     assign3(new ArrayList<String>());

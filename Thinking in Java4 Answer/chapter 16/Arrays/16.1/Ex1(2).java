@@ -8,7 +8,7 @@
 */
 import java.util.*;
 import static net.mindview.util.Print.*;
-class A { public String toString() { return "A Object"; } }
+class A { public String toString() { return "A object"; } }
 
 public class Ex1 {
 	// Method that takes BerylliumSphere[] as argument

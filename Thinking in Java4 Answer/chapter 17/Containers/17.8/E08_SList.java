@@ -27,7 +27,7 @@ interface SListIterator<T> {
 }
 
 class SList<T> {
-  // Utilization of the 'Null Object' pattern
+  // Utilization of the 'Null object' pattern
   private final Link<T> header = new Link<T>(null, null);
   SList() { header.next = header; }
   public String toString() {

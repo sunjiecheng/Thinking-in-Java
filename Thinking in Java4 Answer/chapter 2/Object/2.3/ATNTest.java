@@ -1,4 +1,4 @@
-// TIJ4 Chapter Object, Exericise 3, page 90
+// TIJ4 Chapter object, Exericise 3, page 90
 // object/ATNTest.java
 // Find the code fragments involving ATypeName and turn them into a program
 // that compiles and runs.

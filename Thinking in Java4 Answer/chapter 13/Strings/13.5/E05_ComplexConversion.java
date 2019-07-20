@@ -53,7 +53,7 @@ public class E05_ComplexConversion {
     f.format("e 3, x = -x: %1$#(0+10.2e\n", -x);
     f.format("h: %1$-10.10h\n", x);
     Object y = new Object();
-    print("y = new Object()");
+    print("y = new object()");
     f.format("b: %1$-10.10b\n", y);
     f.format("s: %1$#-10.10s\n", y);
     f.format("h: %1$-10.10h\n", y);
@@ -100,7 +100,7 @@ e 1: +01.80e+02
 e 2:  1.80e+02
 e 3, x = -x: (1.80e+02)
 h: 1ef462c
-y = new Object()
+y = new object()
 b: true
 s: java.lang.
 h: 3e25a5
