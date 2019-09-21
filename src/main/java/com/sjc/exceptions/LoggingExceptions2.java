@@ -1,18 +1,22 @@
 package com.sjc.exceptions;
-//: exceptions/LoggingExceptions2.java
-// Logging caught exceptions.
 
-import java.util.logging.*;
-import java.io.*;
+import sun.rmi.runtime.Log;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.logging.Logger;
+
+/**
+ * @author jiecheng
+ * @create 2019-09-21 下午12:00
+ */
 public class LoggingExceptions2 {
-    private static Logger logger =
-            Logger.getLogger("LoggingExceptions2");
+    public static Logger logger = Logger.getLogger("LoggingExceptions");
 
     static void logException(Exception e) {
-        StringWriter trace = new StringWriter();
-        e.printStackTrace(new PrintWriter(trace));
-        logger.severe(trace.toString());
+        StringWriter stringWriter = new StringWriter();
+        e.printStackTrace(new PrintWriter(stringWriter));
+        logger.severe(stringWriter.toString());
     }
 
     public static void main(String[] args) {
@@ -21,9 +25,6 @@ public class LoggingExceptions2 {
         } catch (NullPointerException e) {
             logException(e);
         }
+
     }
-} /* Output: (90% match)
-Aug 30, 2005 4:07:54 PM LoggingExceptions2 logException
-SEVERE: java.lang.NullPointerException
-        at LoggingExceptions2.main(LoggingExceptions2.java:16)
-*///:~
+}

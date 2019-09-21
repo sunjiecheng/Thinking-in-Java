@@ -1,43 +1,30 @@
 package com.sjc.exceptions;
-//: exceptions/LoggingExceptions.java
-// An exception that reports through a Logger.
 
-import java.util.logging.*;
-import java.io.*;
 
-class LoggingException extends Exception {
-    private static Logger logger =
-            Logger.getLogger("LoggingException");
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.logging.Logger;
 
-    public LoggingException() {
-        StringWriter trace = new StringWriter();
-        printStackTrace(new PrintWriter(trace));
-        logger.severe(trace.toString());
-    }
-}
-
+/**
+ * @author jiecheng
+ * @create 2019-09-21 上午11:08
+ */
 public class LoggingExceptions {
     public static void main(String[] args) {
         try {
             throw new LoggingException();
         } catch (LoggingException e) {
-            System.err.println("Caught " + e);
-        }
-        try {
-            throw new LoggingException();
-        } catch (LoggingException e) {
-            System.err.println("Caught " + e);
+
         }
     }
-} /* Output: (85% match)
-Aug 30, 2005 4:02:31 PM LoggingException <init>
-SEVERE: LoggingException
-        at LoggingExceptions.main(LoggingExceptions.java:19)
+}
 
-Caught LoggingException
-Aug 30, 2005 4:02:31 PM LoggingException <init>
-SEVERE: LoggingException
-        at LoggingExceptions.main(LoggingExceptions.java:24)
+class LoggingException extends Exception {
+    private static Logger logger = Logger.getLogger("LoggingExceptions");
 
-Caught LoggingException
-*///:~
+    public LoggingException() {
+        StringWriter stringWriter = new StringWriter();
+        printStackTrace(new PrintWriter(stringWriter));
+        logger.severe(stringWriter.toString());
+    }
+}
